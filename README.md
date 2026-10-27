@@ -34,3 +34,7 @@ make fixtures
 该目标从 GitHub 下载 `main` 分支压缩包，并将其中整个 `testdata/` 目录复制到 `ofd`
 仓库的对应目录。可通过 Make 变量 `FIXTURES_URL` 指定其他分支、标签或提交对应的压缩包
 地址。运行该目标需要安装 `curl` 和 `unzip`。
+
+## 比较 OFD 差异
+
+如果需要比较不同版本 OFD 文件差异，可以使用 <https://zc310.github.io/ofd-toolbox/>。
