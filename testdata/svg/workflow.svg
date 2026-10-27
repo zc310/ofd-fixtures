@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f689d"/>
+      <stop offset="1" stop-color="#55a6c9"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#5b6875"/>
+    </marker>
+  </defs>
+  <rect width="960" height="420" rx="18" fill="#f2f5f8"/>
+  <text x="48" y="70" font-family="sans-serif" font-size="34" fill="#23303e">Document workflow / 文档处理流程</text>
+  <path d="M280 210 H350 M610 210 H680" fill="none" stroke="#5b6875" stroke-width="4" marker-end="url(#arrow)"/>
+  <g font-family="sans-serif" font-size="28" text-anchor="middle">
+    <rect x="40" y="140" width="240" height="140" rx="14" fill="url(#blue)"/>
+    <text x="160" y="205" fill="white">Import</text>
+    <text x="160" y="245" fill="white" font-size="22">导入资料</text>
+    <rect x="370" y="140" width="240" height="140" rx="14" fill="url(#blue)"/>
+    <text x="490" y="205" fill="white">Review</text>
+    <text x="490" y="245" fill="white" font-size="22">审核内容</text>
+    <rect x="700" y="140" width="220" height="140" rx="14" fill="url(#blue)"/>
+    <text x="810" y="205" fill="white">Archive</text>
+    <text x="810" y="245" fill="white" font-size="22">归档保存</text>
+  </g>
+  <text x="48" y="360" font-family="sans-serif" font-size="22" fill="#5b6875">SVG vector paths, gradients, markers and selectable text.</text>
+</svg>

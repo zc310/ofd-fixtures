@@ -1,0 +1,56 @@
+From: Project team <team@example.org>
+To: Archive desk <archive@example.org>
+Cc: reviewer@example.org
+Date: Tue, 27 Oct 2026 09:00:00 +0800
+Subject: 项目进展 / Project update
+Message-ID: <project-update@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="ofd-mail-mixed"
+
+--ofd-mail-mixed
+Content-Type: multipart/related; boundary="ofd-mail-related"
+
+--ofd-mail-related
+Content-Type: multipart/alternative; boundary="ofd-mail-alternative"
+
+--ofd-mail-alternative
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+项目资料已整理完成，请核对附件清单。
+Project documents are ready for review.
+
+--ofd-mail-alternative
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!doctype html><html><body>
+<img src="cid:project-logo@example.org" alt="Project logo" width="180" height="60">
+<h2 style="color:#2f689d">资料审核通知</h2>
+<p>项目资料已整理完成，请核对附件清单。</p>
+<p>Project documents are ready for review.</p>
+<table style="border-collapse:collapse" border="1" cellpadding="8">
+<tr><th>事项</th><th>状态</th></tr>
+<tr><td>文档整理</td><td>已完成</td></tr>
+<tr><td>内容复核</td><td>待审核</td></tr>
+</table>
+<p>详情：<a href="https://example.org/project">Project page</a></p>
+</body></html>
+
+--ofd-mail-alternative--
+--ofd-mail-related
+Content-Type: image/svg+xml
+Content-ID: <project-logo@example.org>
+Content-Disposition: inline; filename="project-logo.svg"
+Content-Transfer-Encoding: 8bit
+
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60"><rect width="180" height="60" rx="8" fill="#2f689d"/><text x="18" y="39" fill="white" font-family="sans-serif" font-size="26">PROJECT</text></svg>
+
+--ofd-mail-related--
+--ofd-mail-mixed
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: attachment; filename="review-checklist.txt"
+Content-Transfer-Encoding: base64
+
+UmV2aWV3IGNoZWNrbGlzdAo=
+--ofd-mail-mixed--
